@@ -131,15 +131,11 @@ p {
 #navbar ul li a:hover {
     background: #93cb52;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
 }
 
 /* Showcase */
 #showcase {
-    background: #333 url('../img/showcase.jpg') no-repeat ;
+    background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
     color: #fff;
 }
@@ -177,10 +173,7 @@ p {
     background: #93cb52;
     padding: 1rem;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    margin-bottom: 1rem;
 }
 
 /* Who we are */
